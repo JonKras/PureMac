@@ -238,6 +238,7 @@
 "Ukrainian" = "Ukrainian";
 "Chinese (Simplified)" = "Chinese (Simplified)";
 "Chinese (Traditional)" = "Chinese (Traditional)";
+"German" = "German";
 "Safety" = "Safety";
 "Confirm before deleting files" = "Confirm before deleting files";
 "File Discovery" = "File Discovery";
@@ -460,3 +461,21 @@
 
 /* Simulator runtimes */
 "Simulator runtime" = "Simulator runtime";
+
+/* Recommendations */
+"Recommendations" = "Recommendations";
+"Top picks based on your scan" = "Top picks based on your scan";
+"Clean now" = "Clean now";
+"Free up %@" = "Free up %@";
+"Your largest junk source — clean it first." = "Your largest junk source — clean it first.";
+"High-value cleanup target." = "High-value cleanup target.";
+"Significant space to reclaim." = "Significant space to reclaim.";
+"Last cleaned over 30 days ago" = "Last cleaned over 30 days ago";
+"A full cleanup is overdue." = "A full cleanup is overdue.";
+"Run Smart Scan" = "Run Smart Scan";
+"Storage is almost full" = "Storage is almost full";
+"Your disk is over 85%% used. Clean up soon." = "Your disk is over 85%% used. Clean up soon.";
+"Developer cache detected" = "Developer cache detected";
+"Xcode, Brew or Node caches found. Good candidates for cleanup." = "Xcode, Brew or Node caches found. Good candidates for cleanup.";
+"No recommendations" = "No recommendations";
+"Run a scan to get personalised recommendations." = "Run a scan to get personalised recommendations.";

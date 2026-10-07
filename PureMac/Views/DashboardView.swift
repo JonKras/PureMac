@@ -489,12 +489,35 @@ struct DashboardView: View {
             if appState.allResults.isEmpty {
                 emptyResults
             } else {
+                let recommendations = ScanRecommendation.build(
+                    from: appState.allResults,
+                    diskInfo: appState.diskInfo,
+                    lastCleanedDate: appState.lastCleanedDate
+                )
+                if !recommendations.isEmpty {
+                    dashboardSection("Recommendations", detail: "Top picks based on your scan")
+                    RecommendationsView(recommendations: recommendations) { action in
+                        handleRecommendationAction(action)
+                    }
+                }
+
                 dashboardSection(
                     appState.scanWasCancelled ? "Partial results" : "Cleanup plan",
                     detail: "Open a category to review individual items"
                 )
                 resultRows(results: appState.allResults.sorted { $0.totalSize > $1.totalSize })
             }
+        }
+    }
+
+    private func handleRecommendationAction(_ action: ScanRecommendation.RecommendationAction) {
+        switch action {
+        case .cleanCategory(let category):
+            onNavigate(.cleaning(category))
+        case .startSmartScan:
+            appState.startSmartScan()
+        case .openSystemSettings:
+            NSWorkspace.shared.open(URL(string: "x-apple.systempreferences:com.apple.preference.security?Privacy_AllFiles")!)
         }
     }
 
