@@ -462,6 +462,106 @@
 /* Simulator runtimes */
 "Simulator runtime" = "Simulator-Laufzeit";
 
+/* Dashboard subtitle / scan states */
+"A clear view of reclaimable storage and the tools that manage it." = "Eine klare Übersicht über freigebbaren Speicher und die Tools zur Verwaltung.";
+"Checking your Mac. Nothing is removed during a scan." = "Dein Mac wird geprüft. Während des Scans wird nichts entfernt.";
+"Review the results and choose exactly what to remove." = "Ergebnisse prüfen und genau auswählen, was entfernt werden soll.";
+"Removing the items you selected." = "Die ausgewählten Elemente werden entfernt.";
+"Cleanup finished and disk information is refreshing." = "Bereinigung abgeschlossen. Speicherinformationen werden aktualisiert.";
+"The scan stopped. Available results are ready to review." = "Der Scan wurde gestoppt. Verfügbare Ergebnisse können überprüft werden.";
+"No reclaimable items were found in the areas checked." = "In den geprüften Bereichen wurden keine freigebbaren Elemente gefunden.";
+"No reclaimable items were found before the scan stopped." = "Vor dem Stopp des Scans wurden keine freigebbaren Elemente gefunden.";
+"%@ found across %lld categories." = "%@ in %lld Kategorien gefunden.";
+"%@ found before the scan stopped. Results may be incomplete." = "%@ vor dem Stopp gefunden. Ergebnisse können unvollständig sein.";
+"%lld selected items will be permanently deleted. Review the list before continuing." = "%lld ausgewählte Elemente werden endgültig gelöscht. Liste vor dem Fortfahren prüfen.";
+"Permanently delete %@?" = "%@ endgültig löschen?";
+"Preparing the next area…" = "Nächster Bereich wird vorbereitet…";
+"Needs attention" = "Aufmerksamkeit erforderlich";
+"Stopped" = "Gestoppt";
+"No scan run yet" = "Noch kein Scan durchgeführt";
+"Last activity: %@" = "Letzte Aktivität: %@";
+
+/* Tools */
+"Space Explorer" = "Speicher-Explorer";
+"Duplicate Finder" = "Duplikat-Finder";
+"Similar Photos" = "Ähnliche Fotos";
+"Performance" = "Leistung";
+"Protection" = "Schutz";
+"App Updates" = "App-Aktualisierungen";
+"Developer Cleanup" = "Entwickler-Bereinigung";
+
+/* Space Explorer */
+"Inspect a folder by allocated disk space. Your files are never changed." = "Ordner nach belegtem Speicherplatz prüfen. Dateien werden nie verändert.";
+"Select any folder to see which files and subfolders occupy the most disk space." = "Beliebigen Ordner auswählen, um zu sehen, welche Dateien und Unterordner den meisten Speicher belegen.";
+"Measuring allocated space" = "Belegter Speicher wird gemessen";
+"No measurable items" = "Keine messbaren Elemente";
+"This folder is empty or its contents were excluded from the scan." = "Dieser Ordner ist leer oder sein Inhalt wurde vom Scan ausgeschlossen.";
+"Symbolic links and cloud-only items are excluded." = "Symbolische Links und nur in der Cloud vorhandene Elemente werden ausgeschlossen.";
+"allocated in this folder" = "in diesem Ordner belegt";
+"Size unavailable" = "Grösse nicht verfügbar";
+"App bundle missing" = "App-Bundle fehlt";
+"Available" = "Verfügbar";
+
+/* Duplicate Finder */
+"Find copies that are exactly the same" = "Exakt gleiche Kopien finden";
+"Choose a folder. PureMac compares file sizes first, then verifies matching files byte for byte. Nothing is selected or removed automatically." = "Ordner auswählen. PureMac vergleicht zuerst Dateigrös­sen, dann prüft es übereinstimmende Dateien Byte für Byte. Nichts wird automatisch ausgewählt oder entfernt.";
+"Choose where to look" = "Suchort auswählen";
+"No exact duplicates found" = "Keine exakten Duplikate gefunden";
+"No excluded paths" = "Keine ausgeschlossenen Pfade";
+"Skipped items" = "Übersprungene Elemente";
+"Excluded paths and folders containing them stay out of manual and scheduled cleanup. Right-click a cleanup result to exclude it." = "Ausgeschlossene Pfade und Ordner werden bei manuellen und geplanten Bereinigungen übersprungen. Ergebnis rechtsklicken, um es auszuschliessen.";
+
+/* Similar Photos */
+"Find visually related shots in a folder and review them side by side." = "Visuell ähnliche Fotos in einem Ordner finden und nebeneinander vergleichen.";
+"Choose a folder of photos" = "Fotoordner auswählen";
+"No similar groups found" = "Keine ähnlichen Gruppen gefunden";
+"Review the groups before acting" = "Gruppen vor der Aktion prüfen";
+"Similarity is a visual estimate, not proof that two files are identical. Use Show in Finder to compare originals at full quality." = "Ähnlichkeit ist eine visuelle Schätzung, kein Beweis für identische Dateien. Im Finder anzeigen, um Originale in voller Qualität zu vergleichen.";
+"PureMac builds small local thumbnails, compares their visual structure and color, then groups likely matches for review." = "PureMac erstellt kleine lokale Vorschaubilder, vergleicht deren visuelle Struktur und Farbe und gruppiert wahrscheinliche Übereinstimmungen.";
+"Symbolic links, app packages, hidden files and cloud-only placeholders are skipped. Photos are never uploaded or deleted." = "Symbolische Links, App-Pakete, versteckte Dateien und reine Cloud-Platzhalter werden übersprungen. Fotos werden nie hochgeladen oder gelöscht.";
+"The analyzed photos did not meet PureMac's visual similarity threshold." = "Die analysierten Fotos erfüllen nicht PureMacs Schwellenwert für visuelle Ähnlichkeit.";
+
+/* Protection */
+"Review the macOS safeguards that protect apps, disks, network access, and system files." = "macOS-Schutzmechanismen prüfen, die Apps, Festplatten, Netzwerkzugriff und Systemdateien schützen.";
+"The audit reads current settings and does not change your Mac. It is a configuration review, not a malware scan." = "Die Prüfung liest aktuelle Einstellungen und ändert nichts. Es ist eine Konfigurationsüberprüfung, kein Malware-Scan.";
+"Check built-in safeguards" = "Integrierte Schutzmassnahmen prüfen";
+"Inspecting startup items and local snapshots…" = "Startobjekte und lokale Snapshots werden geprüft…";
+"Inspection stopped" = "Prüfung gestoppt";
+"App permissions" = "App-Berechtigungen";
+"Browser privacy" = "Browser-Datenschutz";
+"Startup and background items" = "Start- und Hintergrundelemente";
+"Local snapshots" = "Lokale Snapshots";
+"Launch agents and daemons installed outside macOS system folders" = "Launch Agents und Daemons ausserhalb der macOS-Systemordner";
+"Time Machine snapshots can be reviewed and removed individually" = "Time Machine-Snapshots können einzeln überprüft und entfernt werden";
+"macOS does not report reliable per-snapshot sizes in this listing." = "macOS meldet für diese Auflistung keine zuverlässigen Snapshot-Grössen.";
+"Review which apps can access private data and hardware." = "Prüfen, welche Apps auf private Daten und Hardware zugreifen können.";
+"Browser controls must be reviewed inside each browser. PureMac does not change cookies, history, site permissions, or extensions." = "Browser-Einstellungen müssen im jeweiligen Browser geprüft werden. PureMac ändert keine Cookies, Verläufe, Website-Berechtigungen oder Erweiterungen.";
+"Safari: Settings > Privacy" = "Safari: Einstellungen > Datenschutz";
+"Full Disk Access is off" = "Festplattenvollzugriff ist deaktiviert";
+"Last checked" = "Zuletzt geprüft";
+"Checking" = "Wird geprüft";
+"Scan could not finish" = "Scan konnte nicht abgeschlossen werden";
+
+/* Performance */
+"See current resource use and review what starts in the background." = "Aktuelle Ressourcennutzung anzeigen und prüfen, was im Hintergrund startet.";
+
+/* App Updates */
+"Review and update apps installed as Homebrew casks." = "Als Homebrew-Casks installierte Apps überprüfen und aktualisieren.";
+"Check installed cask apps" = "Installierte Cask-Apps prüfen";
+"Apps outside Homebrew" = "Apps ausserhalb von Homebrew";
+"Checking Homebrew casks" = "Homebrew-Casks werden geprüft";
+"Checking asks Homebrew to refresh its package data as needed and contacts Homebrew's configured sources. PureMac only lists cask apps managed by this Homebrew installation." = "Die Prüfung veranlasst Homebrew, seine Paketdaten zu aktualisieren und die konfigurierten Quellen zu kontaktieren. PureMac listet nur Cask-Apps auf, die von dieser Homebrew-Installation verwaltet werden.";
+"Refreshing package data and comparing installed versions." = "Paketdaten werden aktualisiert und installierte Versionen verglichen.";
+"PureMac will ask Homebrew for available versions when you start the check." = "PureMac fragt Homebrew nach verfügbaren Versionen, wenn die Prüfung gestartet wird.";
+"Select the apps Homebrew should upgrade." = "Apps auswählen, die Homebrew aktualisieren soll.";
+"Updates from Homebrew" = "Aktualisierungen von Homebrew";
+"Open the App Store updates page. Direct-download apps may provide their own updater." = "App-Store-Aktualisierungsseite öffnen. Direkt heruntergeladene Apps haben möglicherweise einen eigenen Updater.";
+"Couldn't check for updates" = "Aktualisierungen konnten nicht geprüft werden";
+"PureMac will move the selected app and related files to the Trash. Items requiring administrator authorization may be permanently deleted. Review the selection before continuing." = "PureMac verschiebt die ausgewählte App und zugehörige Dateien in den Papierkorb. Elemente, die Administratorrechte erfordern, werden möglicherweise endgültig gelöscht. Auswahl vor dem Fortfahren prüfen.";
+"Files will be moved to the Trash. Items requiring administrator authorization may be permanently deleted. App matching is a best-effort estimate; review files you recognize before removing them." = "Dateien werden in den Papierkorb verschoben. Elemente mit Administratorrechten werden möglicherweise endgültig gelöscht. App-Zuordnung ist eine Schätzung; erkannte Dateien vor dem Entfernen prüfen.";
+"Updating…" = "Wird aktualisiert…";
+"Select any folder to see which files and subfolders occupy the most disk space." = "Beliebigen Ordner wählen, um zu sehen, welche Dateien und Unterordner den meisten Speicher belegen.";
+
 /* Recommendations */
 "Recommendations" = "Empfehlungen";
 "Top picks based on your scan" = "Beste Vorschläge basierend auf deinem Scan";
